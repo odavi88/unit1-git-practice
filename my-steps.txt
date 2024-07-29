@@ -1,0 +1,146 @@
+### Step 2A
+/Users/omardavidsonii/Desktop/unit1-git-practice
+
+
+### Step 2B
+➜  unit1-git-practice git:(main) ✗ pwd
+/Users/omardavidsonii/Desktop/unit1-git-practice
+➜  unit1-git-practice git:(main) ✗ ..
+➜  Desktop git:(main) ✗
+
+### Step 2C
+➜  Desktop git:(main) ✗ ls
+➜  Desktop git:(main) ✗ cd unit1-git-practice
+
+### Step 2D
+➜  unit1-git-practice git:(main) ✗ pwd
+/Users/omardavidsonii/Desktop/unit1-git-practice
+
+### Step 2E
+➜  unit1-git-practice git:(main) ✗ ls
+my-steps.txt
+
+### Step 2F
+my-steps.txt
+
+
+### Step 2G
+➜ /
+
+
+### Step 2H
+/
+
+
+### Step 2I
+➜  / ls
+Applications System       Volumes      cores        etc          opt          sbin         usr
+Library      Users        bin          dev          home         private      tmp          var
+
+
+### Step 2J
+➜  / cd ~
+
+
+### Step 2K
+➜  ~ git:(main) ✗ cd /Users/omardavidsonii/Desktop/unit1-git-practice
+
+
+### Step 3A
+➜  unit1-git-practice git:(main) ✗ mkdir veggies
+➜  unit1-git-practice git:(main) ✗ mkdir meats
+➜  unit1-git-practice git:(main) ✗ mkdir desserts
+➜  unit1-git-practice git:(main) ✗ ls
+desserts     meats        my-steps.txt veggies
+
+### Step 3B
+➜  unit1-git-practice git:(main) ✗ mv desserts sweets
+➜  unit1-git-practice git:(main) ✗ ls
+meats        my-steps.txt sweets       veggies
+
+
+### Step 3C
+➜  unit1-git-practice git:(main) ✗ mkdir proteins
+➜  unit1-git-practice git:(main) ✗ ls
+meats        my-steps.txt proteins     sweets       veggies
+
+### Step 3D
+➜  unit1-git-practice git:(main) ✗ mv meats /Users/omardavidsonii/Desktop/unit1-git-practice/proteins
+➜  unit1-git-practice git:(main) ✗ ls
+my-steps.txt proteins     sweets       veggies
+
+### Step 3E
+➜  veggies git:(main) ✗ touch carrot.txt
+➜  veggies git:(main) ✗ touch peas.txt
+➜  veggies git:(main) ✗ ls
+carrot.txt peas.txt
+
+### Step 3F
+➜  veggies git:(main) ✗ ..
+➜  unit1-git-practice git:(main) ✗ cd sweets
+➜  sweets git:(main) ✗ touch cookie.txt
+➜  sweets git:(main) ✗ ls
+cookie.txt
+
+### Step 3G
+➜  sweets git:(main) ✗ mv cookie.txt donut.txt
+➜  sweets git:(main) ✗ ls
+donut.txt
+
+### Step 3H
+➜  sweets git:(main) ✗ ..
+➜  unit1-git-practice git:(main) ✗ touch thing.txt
+➜  unit1-git-practice git:(main) ✗ ls
+my-steps.txt proteins     sweets       thing.txt    veggies
+
+### Step 3I
+➜  unit1-git-practice git:(main) ✗ cp thing.txt tofu.txt
+
+### Step 3J
+➜  unit1-git-practice git:(main) ✗ mv tofu.txt /Users/omardavidsonii/Desktop/unit1-git-practice/proteins
+➜  unit1-git-practice git:(main) ✗ cd proteins
+➜  proteins git:(main) ✗ ls
+meats    tofu.txt
+
+### Step 3K
+➜  unit1-git-practice git:(main) ✗ cp thing.txt crab.txt
+➜  unit1-git-practice git:(main) ✗ ls
+crab.txt     my-steps.txt proteins     sweets       thing.txt    veggies
+➜  unit1-git-practice git:(main) ✗ mv crab.txt /Users/omardavidsonii/Desktop/unit1-git-practice/proteins/meats
+➜  unit1-git-practice git:(main) ✗ cd proteins
+➜  proteins git:(main) ✗ cd meats
+➜  meats git:(main) ✗ ls
+crab.txt
+
+### Step 3L
+➜  unit1-git-practice git:(main) ✗ rm thing.txt
+➜  unit1-git-practice git:(main) ✗ ls
+my-steps.txt proteins     sweets       veggies
+
+
+### Step 3M
+➜  unit1-git-practice git:(main) ✗ cp -R veggies plants
+➜  unit1-git-practice git:(main) ✗ ls
+my-steps.txt plants       proteins     sweets       veggies
+
+### Step 3N
+➜  unit1-git-practice git:(main) ✗ mkdir drinks
+➜  unit1-git-practice git:(main) ✗ ls
+drinks       my-steps.txt plants       proteins     sweets       veggies
+➜  unit1-git-practice git:(main) ✗ rm -R drinks
+➜  unit1-git-practice git:(main) ✗ ls
+my-steps.txt plants       proteins     sweets       veggies
+
+
+### Step 4
+➜  unit1-git-practice git:(main) ✗ git init
+Initialized empty Git repository in /Users/omardavidsonii/Desktop/unit1-git-practice/.git/
+
+### Step 5
+
+
+### Step 6
+
+
+### Step 7
+*** DO NOT RECORD STEP 7 ***
